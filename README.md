@@ -1,3 +1,5 @@
+![Logo](https://github.com/raktim74/docuapi/blob/master/public/DocuAPI_logo.PNG)
+
 # DocuAPI - API Documentation Portal
 
 This platform will provide a centralised location to test and understand the respective APIs, eliminating the need for manual documentation, maintenance, and readability. It will also eliminate the API testing tool, which requires time spent importing collections, authorising requests, and so on. Additionally, it will offer a playground where you can check request and response without being overwhelmed by information
@@ -75,7 +77,7 @@ Start the server
 - docker run -p 9000:8080 0901224039/docuapi:v1 [Test locally]
 
 ## Understand with a diagram
-![Diagram](https://github.com/raktim74/docuapi.git/blob/public/DocuAPI_test.drawio.svg)
+![Diagram](https://github.com/raktim74/docuapi/blob/master/public/DocuAPI_tech.drawio.svg)
 
 
 ## Authors
