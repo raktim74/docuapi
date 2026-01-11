@@ -35,7 +35,7 @@ Developers generally maintain the Swagger file during project development and st
 
 ## How It Works?
 
-diagram
+![Diagram](https://github.com/raktim74/docuapi/blob/master/public/DocuAPI_tech.drawio.svg)
 
 
 ## Environment Variables
@@ -51,6 +51,7 @@ To run this project, you will need to add the following environment variables to
 For Jest Testing, add .env.test file in the root directory
 
 `NODE_ENV`: test jest
+
 `LOAD_OPTION`=json/yml
 
 
@@ -76,9 +77,6 @@ Start the server
 - docker pull 0901224039/docuapi:v1
 - docker run -p 9000:8080 0901224039/docuapi:v1 [Test locally]
 
-## Understand with a diagram
-![Diagram](https://github.com/raktim74/docuapi/blob/master/public/DocuAPI_tech.drawio.svg)
-
 
 ## Authors
 
@@ -93,4 +91,3 @@ Start the server
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-

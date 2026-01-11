@@ -210,7 +210,7 @@ APP_STARTER.get('/docs/:api_url', async (req, res, next) => {
             SWAGGER_UI.setup(SPECS)(req, res, next);
         }
     } else {
-        SWAGGER_UI.setup(SPECS)(req, res, next);
+        SWAGGER_UI.setup(SPECS, swagger_ui_options)(req, res, next);
     }
 });
 
